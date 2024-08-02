@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safer London</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- page icon -->
+    <link rel="icon" href="https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/1024px/1f1ec-1f1e7.png"
+        type="image/x-icon" />
+    <!-- mapbox -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <h4>Welcome to Safer London</h4>
+
+    <p>Safer London is a live map designed for Londoners to stay informed and updated about crimes happening in
+        the local areas where they live and go.<br><br>This project uses the popular mapping tool <a
+            href="https://www.mapbox.com/">MapBox</a> to
+        visualise detailed crime patterns and incidents across the city. This interactive map features several
+        additional layers, including London borough boundaries, marked crime points, and attached popups for a more
+        informative visualisation.<br><br>The data used in the map are
+        collected from the <a href="https://data.police.uk/docs/">UK's Police API</a>, which provides the exact
+        location, category, and outcome of each crime. Users are empowered to zoom in the London map and click on
+        the marked points to know further details.<br><br>Journalists can leverage this map to pinpoint
+        high-crime spots and areas in London and uncover valuable insights into crime trends when reporting related
+        topics.
+    </p>
+
+    <div class="btn">
+        <button id="back-button">Back to Map</button>
+        <script src="button.js"></script>
+    </div>
+
+</body>
+
+</html>

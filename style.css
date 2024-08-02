@@ -1,0 +1,117 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Fragment Mono", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #2f2f2f;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+header {
+    background-color: #2f2f2f;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1,
+h4 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #fffcf9ff;
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px
+}
+
+h2 {
+    font-weight: 400;
+    font-style: normal;
+    color: #fffcf9ff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+
+h3 {
+    font-weight: 100;
+    font-style: normal;
+    color: #fffcf9ff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+h4 {
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
+p {
+    width: 80%;
+    font-weight: 100;
+    font-style: normal;
+    color: #fffcf9ff;
+    text-align: justify;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3ch;
+}
+
+a {
+    color: #fffcf9ff;
+}
+
+a:visited {
+    color: #fffcf9ff;
+}
+
+a:hover {
+    color: #fffcf9ff;
+}
+
+a:active {
+    color: #fffcf9ff;
+}
+
+/* button */
+
+button {
+    font-family: "Fragment Mono", monospace;
+    width: fit-content;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 20px;
+    padding: 15px 25px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
